@@ -1,0 +1,22 @@
+
+/*
+Online Java - IDE, Code Editor, Compiler
+
+Online Java is a quick and easy tool that helps you to build, compile, test your programs online.
+*/
+
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        System.out.print("ingrese su nombre : ");
+        String userName= scanner.nextLine();
+        System.out.print("ingrese su edad: ");
+        int age= scanner.nextInt();
+        System.out.print("ingrese su altura: ");
+        double height = scanner.nextDouble();
+        System.out.println("te llamas: " +userName +". tienes " +age+ "años " + "y mides " +height+ "cm");
+        
+    }
+}

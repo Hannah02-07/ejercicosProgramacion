@@ -1,0 +1,22 @@
+
+/*
+Online Java - IDE, Code Editor, Compiler
+
+Online Java is a quick and easy tool that helps you to build, compile, test your programs online.
+*/
+
+public class Main
+{
+    public static void main(String[] args) {
+        int age = 17;
+        double height = 1.65;
+        String initialName= "H";
+        boolean isAdult = false;
+        System.out.println("age: " +age);
+        System.out.println("his height is: " +height);
+        System.out.println("his name stars with: " +initialName);
+        System.out.println("is an adult? :" + isAdult);
+        
+        
+    }
+}
